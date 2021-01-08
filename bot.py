@@ -18,11 +18,10 @@ from __constants.const import *
 from __banner.myBanner import bannerTop
 from __colors__.colors import *
 
-######## This script is only for educational purpose ########
-######## use it on your own RISK ########
-######## I'm not responsible for any loss or damage ########
-######## caused to you using this script ########
-######## Github Repo - https://git.io/JJisT/ ########
+######## This script is not made for any sort of abuse. ########
+######## I'm not liable for any troubles caused. Use it on your own Risk.########
+######## Github Repository - https://github.com/aniruddhsinghal5/edumailgen ########
+######## DO NOT FORGET TO DROP A STAR TO MY REPO :D ########
 
 def postFix(n):
     range_start = 10**(n-1)
@@ -1010,10 +1009,10 @@ def main():
     isIDError = True
     
     while isIDError != False:
-        print('\n' + fc + sd + '[' + fm + sb + '*' + fc + sd + '] ' + fg + 'Enter college id for ex - 1 or 2 or 3.... : ', end='')
+        print('\n' + fc + sd + '[' + fm + sb + '*' + fc + sd + '] ' + fg + 'Enter College ID from the above list. For example, - 1 or 2 or 3.... : ', end='')
         userInput = int(input())
         if userInput > len(allColleges) or userInput < 1:
-            print(fc + sd + '[' + fm + sb + '*' + fc + sd + '] ' + fr + 'Wrong College id')
+            print(fc + sd + '[' + fm + sb + '*' + fc + sd + '] ' + fr + 'Wrong College ID')
         else:
             userInput = userInput - 1
             isIDError = False
@@ -1024,12 +1023,12 @@ def main():
 
     time.sleep(0.4)
 
-    print('\n' + fc + sd + '[' + fm + sb + '*' + fc + sd + '] ' + fg + 'Enter Your Email: ', end='')
+    print('\n' + fc + sd + '[' + fm + sb + '*' + fc + sd + '] ' + fg + 'Enter Your Email( Dont use TempMail) : ', end='')
     userEmail = input()
 
     time.sleep(0.4)
 
-    print('\n' + fc + sd + '[' + fm + sb + '*' + fc + sd + '] ' + fg + 'Hold on Starting now, Keep checking this terminal for instructions')
+    print('\n' + fc + sd + '[' + fm + sb + '*' + fc + sd + '] ' + fg + 'Hold on Starting now, Keep checking this terminal for instructions.')
 
     time.sleep(1)
     reg_url = start_url + clg_ids[userInput]
