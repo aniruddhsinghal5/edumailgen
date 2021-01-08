@@ -2,11 +2,10 @@ import subprocess
 import sys
 from __dwnldDrivers.versions import *
 
-######## This script is only for educational purpose ########
-######## use it on your own RISK ########
-######## I'm not responsible for any loss or damage ########
-######## caused to you using this script ########
-######## Github Repo - https://git.io/JJisT/ ########
+######## This script is not made for any sort of abuse. ########
+######## I'm not liable for any troubles caused. Use it on your own Risk.########
+######## Github Repository - https://github.com/aniruddhsinghal5/edumailgen ########
+######## DO NOT FORGET TO DROP A STAR TO MY REPO :D ########
 
 def install(name):
     subprocess.check_call([sys.executable, '-m', 'pip', 'install', name])
@@ -43,10 +42,10 @@ def main():
         print('Chrome isn\'t installed')
     
     if is_firefox_there == 0 and is_chrome_there == 0:
-        print('Error - Setup installation failed \nReason - Please install either Chrome or Firefox browser to complete setup process')
+        print('Error - Setup installation failed \nReason - Please install either Chrome or Firefox browser to complete setup process. If using Termux, please try on a PC before reporting.')
         exit()
 
-    print('\nWich browser do you prefer to run script on')
+    print('\nWich browser do you prefer to run script on? Use Firefox for best results :)')
 
     for index, pr in enumerate(installed_pr, start=1):
         print('\n[*] ' + str(index) + ' ' + pr)
