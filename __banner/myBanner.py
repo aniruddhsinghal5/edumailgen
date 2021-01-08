@@ -4,12 +4,12 @@ import sys
 
 def bannerTop():
     banner = '''
- _____    _         __  __       _ _    ____
-| ____|__| |_   _  |  \/  | __ _(_) |  / ___| ___ _ __
-|  _| / _` | | | | | |\/| |/ _` | | | | |  _ / _ \ '_ \\
-| |__| (_| | |_| | | |  | | (_| | | | | |_| |  __/ | | |_
-|_____\__,_|\__,_| |_|  |_|\__,_|_|_|  \____|\___|_| |_(_)
-      Github Repo - https://git.io/JJisT/\n\n
+******************************************...****
+*              EDU-MAIL GENERATOR               *        
+*                                               *
+*              By- @aniruddhsinghal5            *
+******************************************...****
+      Github Repostory - https://github.com/aniruddhsinghal5/edumailgen\n\n
 '''
 
     bad_colors = ['BLACK', 'WHITE', 'LIGHTBLACK_EX', 'RESET']
